@@ -9,3 +9,8 @@ const subtraction = (number1:number,number2:number):number=>{
 }
 const resultSubtraction = subtraction(10,5)
 console.log(`${resultSubtraction}`);
+
+const multiplication = (number1:number,number2:number):number => {
+    return number1*number2;
+}
+const resultMultiplication = multiplication(10,2)
